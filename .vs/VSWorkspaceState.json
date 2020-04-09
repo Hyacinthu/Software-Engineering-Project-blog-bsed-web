@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\conf\\nginx",
+    "\\conf\\supervisor",
+    "\\www",
+    "\\www\\static"
+  ],
+  "SelectedNode": "\\www\\app.py",
+  "PreviewInSolutionExplorer": false
+}
