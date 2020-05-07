@@ -1,0 +1,122 @@
+
+<html>
+	<head>
+	  <meta charset=utf-8">
+	  <title id="tit">1705_Blog</title>
+	  <style type="text/css">
+	   #tit{
+		   font-size: 50px;
+	   }
+	    .container{
+			border: 1px solid #cccccc;
+		}
+        .img2{
+			width: 100%;
+			height: 100%;
+			display: block;
+			background: url(2.jpg) no-repeat ;
+		}
+		  h1{
+	  font-size:30px;
+	  color:#930;
+	  text-align:left;
+		  }
+		  </style>
+	
+	</head>
+	
+	<body style="background-size:100%;background: url(9.jpg);
+	position:relative; left: 50px;"> 
+
+	    
+	   <h1>个人信息完善页</h1>
+	   
+	   <form method="post"  action="UI2.html">
+		   <!-- <div class = "container">
+			<div class = "img2">
+	
+			</div>
+		   </div> -->
+		  <div>
+			<lable for="image"> 选 择 头 像：</label>
+			<input type="image" src="1.jpg" width="150" height="150" alt="Submit">
+		      <p>从文件中选择照片：   <input type="file" name="filename"></p> 
+		  </div>
+		  <p>
+			 <lable for="username"> 昵 称：</label>
+			    <input type="text" name="" id="username"></p>
+		  <p>
+			<lable for="password"> 密 码：</label>
+			   <input type="password" name=""id="password"></p>
+		  <p>
+				<lable for="acpassword"> 确 认密 码：</label>
+				   <input type="password" name=""id="acpassword"></p>
+		  <p>
+			<lable for="introduce"> 简 介：</label>
+			<textarea name="commet"rows=5 cols=60  id="introduce">
+			</textarea></p>
+		  <p>
+			 性 别：   <input type="radio" name="性别">男
+			  <input type="radio" name="性别">女</p>
+		  <p>
+			 生 日：   
+			<select name="nian">
+			   <option>1999
+			   <option>2000
+			   <option>2001
+			   <option>2002
+			   <option selected>2003
+			</select>--
+			<select name="yue">
+				<option>1
+				<option>2
+				<option>3
+				<option>4
+				<option selected>5
+			 </select>--
+			 <select name="ri">
+				<option>1
+				<option>2
+				<option>3
+				<option>4
+				<option selected>5
+			 </select>
+			</p>
+		  <p>
+			   爱 好：   <input type="checkbox"name="sport">运动
+			  <input type="checkbox"name="music">音乐
+			      <input type="checkbox"name="movie">电影
+			  <input type="checkbox"name="read">阅读</p>
+		  <p>
+		      地 区：   
+				<select name="nation">
+				   <option>中国
+				   <option>德国
+				   <option>法国
+				   <option>意大利
+				   <option selected>中国
+				</select>--
+				<select name="province">
+					<option>辽宁
+					<option>黑龙江
+					<option>吉林
+					<option>湖北
+					<option selected>辽宁
+				 </select>--
+				 <select name="city">
+					<option>大连
+					<option>长春
+					<option>抚顺
+					<option>武汉
+					<option selected>沈阳
+				 </select>
+			</p>
+		 <a style ="color: crimson;" href="http://www.neu.edu.cn/">联系我们</a>
+		  <p>
+		  <input type="submit"value="提交">
+		  <input type="reset"value="清空"></p>
+	   </form>
+	
+	</body>
+	
+   </html>
